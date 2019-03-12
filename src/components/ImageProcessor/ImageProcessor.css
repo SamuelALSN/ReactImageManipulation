@@ -1,0 +1,32 @@
+.editor {
+    background: #fff;
+    border-radius: 6px;
+    position: relative;
+    max-width: calc(100vw - 100px);
+    max-height: calc(100vh - 100px);
+    box-shadow: 0 20px 60px rgba(0,0,0,.1);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.editor .editor__toolbar-tools {
+    display: flex;
+    padding: 10px;
+}
+
+.editor .editor__toolbar-tools div {
+    margin: 0 14px;
+}
+
+.editor .editor__toolbar-tools div button{
+    background: #0060df;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+}
